@@ -1,4 +1,10 @@
-$col: gray;
-body{
-	color: $col;
-}
+@import "variables.scss";
+@import "mixins.scss";
+@import "components.scss";
+@import "main.scss";
+@import "components/type.scss";
+@import "components/button.scss";
+@import "components/form.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+@import "layout/main.scss";
